@@ -29,7 +29,7 @@ impl Contract {
         }
     }
 
-    pub fn register_account(&mut self, phone_number: PhoneNumber, account: AccountId) {
+    pub fn register_account(&mut self, phone_number: PhoneNumber) {
         // let account_id = predecessor_account_id();
         //
         // if self.number_per_id.get(&phone_number).is_some() {
